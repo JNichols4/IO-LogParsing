@@ -17,6 +17,8 @@ output_filename_scatter = output_directory + 'bmpio1_parsed_scatter.csv' #'ctrl 
 #print import_filename
 import_file = open(import_filename,"r")
 
+#Adding new comment to make sure that GIT is connected and recognizes changes correctly.
+
 #count the number of devices, 0 -> n
 
 def status(msg_string):
